@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto&display=swap" rel="stylesheet">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <title>Home</title>
+</head>
+<body>
+    
+        <img src="logo.png" style="width:100px; height:100px;">
+        <div class="upperContainer">
+            <div class="selectContainer">
+            <select name="Term">
+            <option value="" onclick="toHideSelection()">Term ...</option>
+            <option value="First Semester (221)" id="TermSelection1" onclick="toShowSelection221()">First Semester (221)</option>
+            <option value="Second Semester (221)" id="TermSelection2" onclick="toShowSelection222()">Second Semester (222)</option>
+            <option value="Summer Semester (221)" id="TermSelection3" onclick="toShowSelection223()">Summer Semester (223)</option>
+            </select>
+            </div>
+
+            <div class="checkall" id="checkBoxAppearing">
+            <button type="button" id="submitButton1" style="vertical-align:middle;margin-top: 0px;" onclick="selects1()">Select All Events
+                            <button type="button" id="submitButton1D" style="vertical-align:middle;" onclick="deSelect1()">De-select All Events
+            <button type="button" id="submitButton2" style="vertical-align:middle;margin-top: 0px;" onclick="selects2()">Select All Events
+                            <button type="button" id="submitButton2D" style="vertical-align:middle;" onclick="deSelect2()">De-select All Events
+            <button type="button" id="submitButton3" style="vertical-align:middle;margin-top: 0px;" onclick="selects3()">Select All Events
+                            <button type="button" id="submitButton3D" style="vertical-align:middle;" onclick="deSelect3()">De-select All Events
+
+
+            </div>
+
+        </div>
+
+        <div class="middleContainer">
+          <div id="Term221">
+            <table style="width:100%">
+                <tr>
+                    <th>...</th>
+                    <th>Event</th>
+                    <th>Date</th>
+                </tr> 
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Classes begin</td>
+                    <td>Aug 28,2022</td> 
+                </tr> 
+                <br>  
+                <br>  
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for registration confirmation</td>
+                    <td>Aug 30,2022</td> 
+                </tr>
+                <br>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for dropping course(s) without permanent record</td>
+                    <td>Sep 08,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>National Day Holiday</td>
+                    <td>Sep 22,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Registration for Co-op/Internship in term 222/223</td>
+                    <td>Sep 25,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for dropping course(s) with grade of "W"</td>
+                    <td>Nov 03,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Beginning of Early Registration for 222</td>
+                    <td>Nov 05,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Midterm Break</td>
+                    <td>Nov 25,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Classes resumes after Midterm Break</td>
+                    <td>Dec 04,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Normal Thursday classes</td>
+                    <td>Dec 18,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Exam preparation break</td>
+                    <td>Dec 19,2022</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Final examinations</td>
+                    <td>Dec 21,2022</td> 
+                </tr>
+                 <tr>
+                    <td><input type="checkbox" name="choice1" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for faculty to submit grades to the Deanship</td>
+                    <td>Jan 05,2023</td> 
+                </tr>
+            </table>  
+         </div>  
+
+         <div id="Term222">
+            <table style="width:100%">
+                <tr>
+                    <th>...</th>
+                    <th>Event</th>
+                    <th>Date</th>
+                </tr> 
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Classes begin</td>
+                    <td>Jan 15,2023</td> 
+                </tr> 
+                <br>  
+                <br>  
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for registration confirmation</td>
+                    <td>Jan 17,2023</td> 
+                </tr>
+                <br>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for dropping course(s) without permanent record</td>
+                    <td>Jan 26,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Registration for Co-op/Internship in 223/231 and Summer Training 223</td>
+                    <td>Feb 05,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Saudi Founding Day</td>
+                    <td>Feb 22,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for dropping course(s) with grade of "W"</td>
+                    <td>Mar 23,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Beginning of Early Registration for 223, 231</td>
+                    <td>Mar 25,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Eid Al-Fitr Holiday starts</td>
+                    <td>Apr 14,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Classes resumes after Ramadhan Break</td>
+                    <td>Apr 30,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for withdrawal from all courses with grade of "W"</td>
+                    <td>May 04,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Normal Wednesday classes</td>
+                    <td>May 14,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Normal Thursday classes</td>
+                    <td>May 15,2023</td> 
+                </tr>
+                 <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Exam preparation break</td>
+                    <td>May 16,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Final examinations</td>
+                    <td>May 17,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice2" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for faculty to submit grades to the Deanship</td>
+                    <td>Jun 01,2023</td> 
+                </tr>
+            </table>  
+         </div>  
+
+         <div id="Term223">
+            <table style="width:100%">
+                <tr>
+                    <th>...</th>
+                    <th>Event</th>
+                    <th>Date</th>
+                </tr> 
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Classes begin</td>
+                    <td>Jun 11,2023</td> 
+                </tr> 
+                <br>  
+                <br>  
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for registration confirmation</td>
+                    <td>Jun 13,2023</td> 
+                </tr>
+                <br>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for dropping course(s) without permanent record</td>
+                    <td>Jun 18,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Hajj Holidays</td>
+                    <td>Jun 23,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Classes resume after Hajj Holidays</td>
+                    <td>Jul 09,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for dropping course(s) with grade of "W"</td>
+                    <td>Jul 27,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day of dropping all course(s) with grade W</td>
+                    <td>Aug 10,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Final examinations</td>
+                    <td>Aug 15,2023</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="choice3" value="All Events Selected" class="checkbox"></td> 
+                    <td>Last day for faculty to submit grades to the Deanship</td>
+                    <td>Aug 20,2023</td> 
+                </tr>
+            </table>  
+         </div>  
+
+        </div>   
+
+<center>
+        <footer>
+         <p>Devleoped By 
+            <a href="https://www.linkedin.com/in/yasseraali/" target="_blank">@Yasser Ali</a>
+             </p>
+        </footer>
+        </center>
+
+<script type="text/javascript" src="app2.js"></script>
+
+</body>
+
+
+
+
+
+
+</html>

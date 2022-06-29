@@ -1,0 +1,1028 @@
+/* TC */
+
+@media only screen and (min-width: 600px) {
+    /* For tablets:
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;} */
+    #submitButton1{
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 120px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
+    
+    #submitButton1:hover {
+      background-color: #d5f0ca;
+      color: black;
+    }
+    #submitButton2{
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 120px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
+    
+    #submitButton2:hover {
+      background-color: #d5f0ca;
+      color: black;
+    }
+    #submitButton3{
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 120px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
+    
+    #submitButton3:hover {
+      background-color: #d5f0ca;
+      color: black;
+    }
+    body{
+      background: linear-gradient(110deg, #97BF8B 40%, #b4d1ac 60%);
+      font-family: 'Raleway', sans-serif;}
+      p{
+          color: #192b15;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+  
+      }
+      h2{
+          color: #192b15;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+  
+  
+      }
+  
+  .button {
+      border: none;
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration:none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 70px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      width: 170px;
+      height: 40px;
+      border-radius: 20px; 
+   }
+  
+    .button5 {
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px; 
+      font-family: 'Raleway', sans-serif; }
+    
+    .button5:hover {
+      background-color: #ADCF9F;
+      color: black;
+    }
+  
+  
+  
+  
+  img{
+      position: relative;
+      padding-left: 4%;
+      /* margin-bottom: -97%; */
+  }
+  
+  
+  
+  /* Rectangle 1 */
+  
+  .Box2{
+  box-sizing: border-box;
+  
+  position:relative;
+  width: 305px;
+  height: 300px;
+  left: 0%;
+  top: 50%;
+  
+  background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  }
+  
+  .textColor{
+      color: #192b15;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  .Email{
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px; 
+      width: 200px;
+      height: 30px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  .userName:content{
+  color: white;
+  }
+  
+  .submitButton {
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 100px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  }
+    
+  .submitButton:hover {
+      background-color: #ADCF9F;
+      color: black;
+    }
+   
+  
+    .MainContainer{
+      margin-top: -80px;
+    }
+  
+    footer{
+      margin-top: 6%;
+  
+    }
+  
+    a{
+      text-decoration: none;
+      color: #192b15;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  .InfoBox{
+    box-sizing: border-box;
+  
+  position:relative;
+  width: 355px;
+  height: 170px;
+  left: 0%;
+  top: 50%;
+  margin-top: -400px;
+  visibility: hidden;
+  
+  
+  background: linear-gradient(180deg, rgb(204, 203, 203) 99.99%, rgb(204, 203, 203) 100%);border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  }
+  
+  
+  .upperContainer{
+    margin-left: 7%;
+    position: relative;
+    display: inline-flex;
+  }
+  
+  .selectContainer{
+    padding-right: 90px;
+  }
+  
+  select{
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 180px;
+    height: 30px;
+    transition: all 0.5s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .checkbox{
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    margin-top: 6.5px;
+    display: grid;
+    place-content: center;
+    
+  }
+  
+  .checkbox:before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+  }
+  
+  .checkbox:checked::before {
+    transform: scale(1);
+  }
+  
+  .checkall{
+    display: inline-flex;
+    visibility: hidden;
+  }
+  
+  #Info{}
+  #buttonPressed{}
+  #checkBoxAppearing{
+    visibility: hidden;
+  
+  }
+  #TermSelection1{}
+  #TermSelection2{}
+  #TermSelection3{}
+  .middleContainer{}
+  #Term221{
+    visibility: hidden;
+  }
+  #Term222{
+    visibility: hidden;
+  }
+  #Term223{
+    visibility: hidden;
+  }
+  th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 8px; 
+   }
+  td{
+    
+    text-align: center;
+
+  }
+  }
+
+
+
+  /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    /* .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;} */
+    
+    body{
+      background: linear-gradient(110deg, #97BF8B 40%, #b4d1ac 60%);
+      font-family: 'Raleway', sans-serif;}
+      p{
+          color: #192b15;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+  
+      }
+      h2{
+          color: #192b15;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+  
+  
+      }
+  
+  .button {
+      border: none;
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration:none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 70px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      width: 170px;
+      height: 40px;
+      border-radius: 20px; 
+   }
+  
+    .button5 {
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px; 
+      font-family: 'Raleway', sans-serif; }
+    
+    .button5:hover {
+      background-color: #ADCF9F;
+      color: black;
+    }
+  
+  
+  
+  
+  img{
+      position: relative;
+      padding-left: 4%;
+      /* margin-bottom: -97%; */
+  }
+  
+  
+  
+  /* Rectangle 1 */
+  
+  .Box2{
+  box-sizing: border-box;
+  
+  position:relative;
+  width: 305px;
+  height: 300px;
+  left: 0%;
+  top: 50%;
+  
+  background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  }
+  
+  .textColor{
+      color: #192b15;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  .Email{
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px; 
+      width: 200px;
+      height: 30px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  .userName:content{
+  color: white;
+  }
+  
+  .submitButton {
+      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 100px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  }
+    
+  .submitButton:hover {
+      background-color: #ADCF9F;
+      color: black;
+    }
+   
+  
+    .MainContainer{
+      margin-top: -80px;
+    }
+  
+    footer{
+      margin-top: 6%;
+      
+  
+    }
+  
+    a{
+      text-decoration: none;
+      color: #192b15;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  .InfoBox{
+    box-sizing: border-box;
+  
+  position:relative;
+  width: 355px;
+  height: 170px;
+  left: 0%;
+  top: 50%;
+  margin-top: -400px;
+  visibility: hidden;
+  
+  
+  background: linear-gradient(180deg, rgb(204, 203, 203) 99.99%, rgb(204, 203, 203) 100%);border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  }
+  
+  
+  .upperContainer{
+    margin-left: 7%;
+    position: relative;
+    display: inline-flex;
+  }
+  
+  .selectContainer{
+    padding-right: 90px;
+  }
+  
+  select{
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 180px;
+    height: 30px;
+    transition: all 0.5s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .checkbox{
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    margin-top: 6.5px;
+    display: grid;
+    place-content: center;
+    
+  }
+  
+  .checkbox:before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+  }
+  
+  .checkbox:checked::before {
+    transform: scale(1);
+  }
+  
+  .checkall{
+    display: inline-flex;
+    visibility: hidden;
+  }
+  
+  #Info{}
+  #buttonPressed{}
+  #checkBoxAppearing{
+    visibility: hidden;
+  
+  }
+  #TermSelection1{}
+  #TermSelection2{}
+  #TermSelection3{}
+  .middleContainer{}
+  th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 8px; 
+   }
+  td{
+    
+    text-align: center;
+
+  }
+
+  #Term221{
+    visibility: collapse;    
+   }
+  #Term222{
+    visibility: collapse;    
+  }
+  #Term223{
+    visibility: collapse;    
+  }
+  #submitButton1{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 120px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;  
+    margin-right: 15px  
+
+  }
+  
+  #submitButton1:hover {
+    background-color: #d5f0ca;
+    color: black;
+  }
+  #submitButton1D{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 150px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+
+  }
+  
+  #submitButton1D:hover {
+    background-color: #f7474762;
+    color: black;
+  }
+  #submitButton2{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 120px;
+    height: 30px;
+    margin-right: 15px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+
+  }
+  
+  #submitButton2:hover {
+    background-color: #d5f0ca;
+    color: black;
+  }
+  #submitButton2D{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 150px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+
+  }
+  
+  #submitButton2D:hover {
+    background-color: #f7474762;
+    color: black;
+  }
+  #submitButton3{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 120px;
+    height: 30px;
+    margin-right: 15px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+
+  }
+  
+  #submitButton3:hover {
+    background-color: #d5f0ca;
+    color: black;
+  }
+  #submitButton3D{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 150px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+
+  }
+  
+  #submitButton3D:hover {
+    background-color: #f7474762;
+    color: black;
+  }
+  }
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+@media only screen and (max-width: 599px) {
+ th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 8px; 
+   }
+  td{
+    
+    text-align: center;
+
+  }
+
+  #submitButton1{
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 120px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+  
+  #submitButton1:hover {
+    background-color: #d5f0ca;
+    color: black;
+  }
+  #submitButton2{
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 120px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+  
+  #submitButton2:hover {
+    background-color: #d5f0ca;
+    color: black;
+  }
+  #submitButton3{
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 120px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+  
+  #submitButton3:hover {
+    background-color: #d5f0ca;
+    color: black;
+  }
+body{
+    background: linear-gradient(110deg, #97BF8B 40%, #b4d1ac 60%);
+    font-family: 'Raleway', sans-serif;}
+    p{
+        color: #192b15;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+
+    }
+    h2{
+        color: #192b15;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+
+
+    }
+
+.button {
+    border: none;
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 70px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px; 
+ }
+
+  .button5 {
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px; 
+    font-family: 'Raleway', sans-serif; }
+  
+  .button5:hover {
+    background-color: #ADCF9F;
+    color: black;
+  }
+
+
+
+
+img{
+    position: relative;
+    padding-left: 4%;
+    /* margin-bottom: -97%; */
+}
+
+
+
+/* Rectangle 1 */
+
+.Box2{
+box-sizing: border-box;
+
+position:relative;
+width: 305px;
+height: 300px;
+left: 0%;
+top: 50%;
+
+background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+}
+
+.textColor{
+    color: #192b15;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+.Email{
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px; 
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+.userName:content{
+color: white;
+}
+
+.submitButton {
+    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 100px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+  
+.submitButton:hover {
+    background-color: #ADCF9F;
+    color: black;
+  }
+ 
+
+  .MainContainer{
+    margin-top: -80px;
+  }
+
+  footer{
+    margin-top: 6%;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: #192b15;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+.InfoBox{
+  box-sizing: border-box;
+
+position:relative;
+width: 355px;
+height: 170px;
+left: 0%;
+top: 50%;
+margin-top: -400px;
+visibility: hidden;
+
+
+background: linear-gradient(180deg, rgb(204, 203, 203) 99.99%, rgb(204, 203, 203) 100%);border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+}
+
+
+.upperContainer{
+  margin-left: 7%;
+  position: relative;
+  display: inline-flex;
+}
+
+.selectContainer{
+  padding-right: 50px;
+}
+
+select{
+  background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+  color: black;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;  
+  width: 180px;
+  height: 30px;
+  transition: all 0.5s;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.checkbox{
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  margin-top: 6.5px;
+  display: grid;
+  place-content: center;
+  
+}
+
+.checkbox:before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+
+.checkbox:checked::before {
+  transform: scale(1);
+}
+
+.checkall{
+  display: inline-flex;
+  visibility: hidden;
+}
+
+#Info{}
+#buttonPressed{}
+#checkBoxAppearing{
+  visibility: hidden;
+
+}
+#TermSelection1{}
+#TermSelection2{}
+#TermSelection3{}
+#Term221{
+  visibility: hidden;
+}
+#Term222{
+  visibility: hidden;
+}
+#Term223{
+  visibility: hidden;
+}
+.middleContainer{}
+}
