@@ -14,8 +14,9 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;} */
+   
     #submitButton1{
-      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
       color: black;
       border: 1px solid #000000;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -25,44 +26,110 @@
       /* transition: all 0.5s; */
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
+      visibility: collapse;  
+      margin-right: 15px  
+  
     }
     
     #submitButton1:hover {
       background-color: #d5f0ca;
       color: black;
     }
+    #submitButton1D{
+      background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 150px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      visibility: collapse;    
+  
+    }
+    
+    #submitButton1D:hover {
+      background-color: #f7474762;
+      color: black;
+    }
     #submitButton2{
-      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
       color: black;
       border: 1px solid #000000;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
       border-radius: 20px;  
       width: 120px;
       height: 30px;
+      margin-right: 15px;
       /* transition: all 0.5s; */
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
+      visibility: collapse;    
+  
     }
     
     #submitButton2:hover {
       background-color: #d5f0ca;
       color: black;
     }
+    #submitButton2D{
+      background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 150px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      visibility: collapse;    
+  
+    }
+    
+    #submitButton2D:hover {
+      background-color: #f7474762;
+      color: black;
+    }
     #submitButton3{
-      background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
       color: black;
       border: 1px solid #000000;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
       border-radius: 20px;  
       width: 120px;
       height: 30px;
+      margin-right: 15px;
       /* transition: all 0.5s; */
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
+      visibility: collapse;    
+  
     }
     
     #submitButton3:hover {
       background-color: #d5f0ca;
+      color: black;
+    }
+    #submitButton3D{
+      background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+      color: black;
+      border: 1px solid #000000;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;  
+      width: 150px;
+      height: 30px;
+      /* transition: all 0.5s; */
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      visibility: collapse;    
+  
+    }
+    
+    #submitButton3D:hover {
+      background-color: #f7474762;
       color: black;
     }
     body{
@@ -291,6 +358,7 @@
   #buttonPressed{}
   #checkBoxAppearing{
     visibility: hidden;
+    display: block;
   
   }
   #TermSelection1{}
@@ -568,6 +636,7 @@
   #buttonPressed{}
   #checkBoxAppearing{
     visibility: hidden;
+    display: block;
   
   }
   #TermSelection1{}
@@ -734,54 +803,126 @@
   }
 
   #submitButton1{
-    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
     color: black;
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;  
-    width: 120px;
+    width: 150px;
     height: 30px;
     /* transition: all 0.5s; */
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    visibility: collapse;  
+    margin-right: 15px  
+
   }
   
   #submitButton1:hover {
     background-color: #d5f0ca;
     color: black;
   }
-  #submitButton2{
-    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+  #submitButton1D{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
     color: black;
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;  
-    width: 120px;
+    width: 150px;
     height: 30px;
     /* transition: all 0.5s; */
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    visibility: collapse;    
+    margin-top: 8px;
+
+  }
+  
+  #submitButton1D:hover {
+    background-color: #f7474762;
+    color: black;
+  }
+  #submitButton2{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;  
+      
+
   }
   
   #submitButton2:hover {
     background-color: #d5f0ca;
     color: black;
   }
-  #submitButton3{
-    background: linear-gradient(180deg, rgba(10, 101, 62, 0.1) 99.99%, rgba(0, 0, 0, 0) 100%);
+  #submitButton2D{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
     color: black;
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;  
-    width: 120px;
+    width: 150px;
     height: 30px;
     /* transition: all 0.5s; */
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    visibility: collapse; 
+    margin-top: 8px;
+   
+
+  }
+  
+  #submitButton2D:hover {
+    background-color: #f7474762;
+    color: black;
+  }
+  #submitButton3{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+
   }
   
   #submitButton3:hover {
     background-color: #d5f0ca;
+    color: black;
+  }
+  #submitButton3D{
+    background: linear-gradient(180deg, rgba(138, 166, 165, 0.386) 99.99%, rgba(138, 166, 165, 0.386) 100%);
+    color: black;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;  
+    width: 150px;
+    height: 30px;
+    /* transition: all 0.5s; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    visibility: collapse;    
+    margin-top: 8px;
+
+
+  }
+  
+  #submitButton3D:hover {
+    background-color: #f7474762;
     color: black;
   }
 body{
@@ -940,11 +1081,13 @@ border-radius: 20px;
 .upperContainer{
   margin-left: 7%;
   position: relative;
-  display: inline-flex;
+  display: block;
 }
 
 .selectContainer{
   padding-right: 50px;
+  margin-top: 10px;
+  display: block;
 }
 
 select{
@@ -1010,6 +1153,8 @@ select{
 #buttonPressed{}
 #checkBoxAppearing{
   visibility: hidden;
+  display: grid;
+  margin-top: 10px;
 
 }
 #TermSelection1{}
